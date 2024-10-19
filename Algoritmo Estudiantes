@@ -1,0 +1,58 @@
+Inicio del programa PuntosEstudiante
+
+    Declarar la variable numero como entero
+    Declarar la variable hermanoCentro como entero
+    Declarar la variable mismaPoblacion como entero
+    Declarar la variable trabajaMismaPoblacion como entero
+    Declarar la variable Discapacidad como entero
+    Declarar la variable familiaNumerosaOMonoparental como entero
+    Declarar la variable escolarizado como entero
+    Declarar la variable puntos como entero e inicializar en 0
+
+    Mostrar mensaje "¿Cual es su número de registro?:"
+    Leer numero desde la entrada
+
+    Mostrar mensaje "¿Tiene algun herman@ en el centro (0: no / 1:si)?:"
+    Leer hermanoCentro desde la entrada
+
+    Mostrar mensaje "¿Vive en la misma población (0: no / 1:si)?:"
+    Leer mismaPoblacion desde la entrada
+
+    Mostrar mensaje "¿Alguno de sus padres trabaja en la misma población (0: no / 1:si)?:"
+    Leer trabajaMismaPoblacion desde la entrada
+
+    Mostrar mensaje "¿Tiene alguna discapacidad igual o superior al 33% o enfermedad crónica (0: no / 1:si)?:"
+    Leer Discapacidad desde la entrada
+
+    Mostrar mensaje "¿Forma parte de una familia numerosa o monoparental (0: no / 1:si)?:"
+    Leer familiaNumerosaOMonoparental desde la entrada
+
+    Mostrar mensaje "¿Padre, madre, tutor legal o hermano ha estado escolarizado a la misma escuela (0: no / 1:si)?:"
+    Leer escolarizado desde la entrada
+
+    Si hermanoCentro es igual a 1 entonces
+        puntos aumenta en 40
+    Fin Si
+
+    Si mismaPoblacion es igual a 1 entonces
+        puntos aumenta en 30
+    Sino Si trabajaMismaPoblacion es igual a 1 entonces
+        puntos aumenta en 20
+    Fin Si
+
+    Si Discapacidad es igual a 1 entonces
+        puntos aumenta en 10
+    Fin Si
+
+    Si familiaNumerosaOMonoparental es igual a 1 entonces
+        puntos aumenta en 15
+    Fin Si
+
+    Si escolarizado es igual a 1 entonces
+        puntos aumenta en 5
+    Fin Si
+
+    Mostrar mensaje "Su numero de registro es " + numero
+    Mostrar mensaje "La puntuación obtenida es de: " + puntos
+
+Fin del programa
